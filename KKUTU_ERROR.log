@@ -1,2 +1,58 @@
 This is an error log file of the game server.
 You may use like `tail -f KKUTU_ERROR.log` to watch this.
+:8506 [2022. 2. 5. 오전 12:36:50] ERROR: TypeError: Cannot read property 'mean' of undefined
+TypeError: Cannot read property 'mean' of undefined
+    at approved (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:251:17)
+    at preApproved (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:267:25)
+    at onDB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:290:25)
+    at callback (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:316:13)
+    at Result.preCB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:298:6)
+    at Result.Query.handleReadyForQuery (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\query.js:144:10)
+    at Connection.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\client.js:180:19)
+    at Connection.emit (events.js:321:20)
+    at Socket.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\connection.js:133:12)
+    at Socket.emit (events.js:321:20):8506 [2022. 2. 5. 오전 12:50:54] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at check_word (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:285:16)
+    at onDB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:299:9)
+    at callback (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:316:13)
+    at Result.preCB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:298:6)
+    at Result.Query.handleReadyForQuery (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\query.js:144:10)
+    at Connection.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\client.js:180:19)
+    at Connection.emit (events.js:321:20)
+    at Socket.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\connection.js:133:12)
+    at Socket.emit (events.js:321:20)
+    at addChunk (_stream_readable.js:297:12):8506 [2022. 2. 5. 오전 12:57:39] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at check_word (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:286:16)
+    at onDB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:300:9)
+    at callback (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:316:13)
+    at Result.preCB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:298:6)
+    at Result.Query.handleReadyForQuery (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\query.js:144:10)
+    at Connection.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\client.js:180:19)
+    at Connection.emit (events.js:321:20)
+    at Socket.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\connection.js:133:12)
+    at Socket.emit (events.js:321:20)
+    at addChunk (_stream_readable.js:297:12):8506 [2022. 2. 5. 오전 1:09:34] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at check_word (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:286:16)
+    at onDB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:300:9)
+    at callback (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:316:13)
+    at Result.preCB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:298:6)
+    at Result.Query.handleReadyForQuery (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\query.js:144:10)
+    at Connection.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\client.js:180:19)
+    at Connection.emit (events.js:321:20)
+    at Socket.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\connection.js:133:12)
+    at Socket.emit (events.js:321:20)
+    at addChunk (_stream_readable.js:297:12):8506 [2022. 2. 5. 오전 1:10:32] ERROR: TypeError: Cannot read property 'mean' of undefined
+TypeError: Cannot read property 'mean' of undefined
+    at approved (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:251:17)
+    at preApproved (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:278:9)
+    at onDB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\Game\games\classic.js:300:27)
+    at callback (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:316:13)
+    at Result.preCB (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\sub\collection.js:298:6)
+    at Result.Query.handleReadyForQuery (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\query.js:144:10)
+    at Connection.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\client.js:180:19)
+    at Connection.emit (events.js:321:20)
+    at Socket.<anonymous> (C:\Users\i7PC\Desktop\KKuTu-master\Server\lib\node_modules\pg\lib\connection.js:133:12)
+    at Socket.emit (events.js:321:20)
