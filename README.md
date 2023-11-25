@@ -1,6 +1,4 @@
 # KKuTu
-출처: [KKuTu](https://github.com/JJoriping/KKuTu)
-
 - Made by [JJoriping](http://blog.jjo.kr/)
 - Special thanks to
 	* [샌드박스 :: SDBX](http://cafe.naver.com/sdbx)
@@ -22,11 +20,12 @@
 ### 설치 방법
 #### Windows 환경
 1. 이 레포지토리를 내려받습니다.
-1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 6 이상, **버전 13 이하**)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다. (버전 14 이상 사용 시 DB 관련 문제가 발생합니다. 버전 13의 경우 일부 모듈의 지원이 끊겼으므로 버전 12 사용을 권장합니다.)
+1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(**12버전**)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다. (버전 14 이상 사용 시 DB 관련 문제가 발생합니다. 버전 13의 경우 일부 모듈의 지원이 끊겼으므로 버전 12 사용을 권장합니다.)
 1. 명령 프롬프트에서 `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
 1. [PostgreSQL](https://www.postgresql.org/) 인스톨러(**버전 11 이하**)를 내려받아 *pgAdmin*(자동으로 설치됨)과 함께 설치합니다. (버전 13 이상 사용 시 authenticationok 문제가 발생합니다.)
 1. *pgAdmin*을 실행시키고 SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
-	* 자세한 과정은 [개발자 블로그][dev-blog]를 참고하세요.
+	* 자세한 과정은 [개발자 블로그][dev-blog]를 참고하세요. 백업본을 사용하는 경우, 과정을 모두 따라한 후 restore를 이용해 복구하세요. 
+	* 그러면 복구가 완료된 시점에 Failed가 뜨는데 이게 정상입니다.
 1. 배치 파일(`./server-setup.bat`)을 실행시킵니다.
 1. 배치 파일(`./Server/run.bat`)을 실행시킵니다.
 	* 되도록 이 배치 파일을 직접 종료하지 말고 이를 실행시켜 나타나는 창을 종료하세요.
